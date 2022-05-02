@@ -1,12 +1,21 @@
-# Tags: latest, 1.5.0-debian-10-r155, 1.5.0, 1-debian-10, 1
+# Tags: latest, 1.5.0-debian-10-r158, 1.5.0, 1-debian-10, 1
 FROM bitnami/jupyterhub:latest
-FROM bitnami/jupyterhub:1.5.0-debian-10-r155
+FROM bitnami/jupyterhub:1.5.0-debian-10-r158
 FROM bitnami/jupyterhub:1.5.0
 FROM bitnami/jupyterhub:1-debian-10
 FROM bitnami/jupyterhub:1
 
 # Tags: _
 FROM bitnami/jupyterhub:_
+
+# Tags: 1.5.0-debian-10-r157
+FROM bitnami/jupyterhub:1.5.0-debian-10-r157
+
+# Tags: 1.5.0-debian-10-r156
+FROM bitnami/jupyterhub:1.5.0-debian-10-r156
+
+# Tags: 1.5.0-debian-10-r155
+FROM bitnami/jupyterhub:1.5.0-debian-10-r155
 
 # Tags: 1.5.0-debian-10-r154
 FROM bitnami/jupyterhub:1.5.0-debian-10-r154
@@ -64,15 +73,3 @@ FROM bitnami/jupyterhub:1.5.0-debian-10-r137
 
 # Tags: 1.5.0-debian-10-r136
 FROM bitnami/jupyterhub:1.5.0-debian-10-r136
-
-# Tags: 1.5.0-debian-10-r135
-FROM bitnami/jupyterhub:1.5.0-debian-10-r135
-
-# Tags: 1.5.0-debian-10-r134
-FROM bitnami/jupyterhub:1.5.0-debian-10-r134
-
-# Tags: 1.5.0-debian-10-r133
-FROM bitnami/jupyterhub:1.5.0-debian-10-r133
-
-# Tags: 1.5.0-debian-10-r132
-FROM bitnami/jupyterhub:1.5.0-debian-10-r132
